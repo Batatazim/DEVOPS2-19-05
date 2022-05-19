@@ -7,7 +7,7 @@ jobs:
     #Ambiente
     release:
       runs-on: ubuntu-latest
-      steps:
+        steps:
       - name: Exibir uma string
         run: eco "olá mundo!"
         name: Script de Várias linhas

@@ -7,11 +7,11 @@ jobs:
     #Ambiente
     release:
       runs-on: ubuntu-latest
-        steps:
-      - name: Exibir uma string
-        run: eco "olá mundo!"
-        name: Script de Várias linhas
-        run: |
-            node -v 
-            npm -v
+      steps:
+        - name: Exibir uma string
+          run: eco "olá mundo!"
+          name: Script de Várias linhas
+          run: |
+               node -v 
+               npm -v
 
